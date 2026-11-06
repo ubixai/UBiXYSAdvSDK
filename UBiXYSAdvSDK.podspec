@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UBiXYSAdvSDK'
-  s.version          = '5.1.0'
+  s.version          = '5.1.0.1'
   s.summary          = 'YSAdvSDK (YingShi/萤石) SDK for iOS'
   s.homepage         = 'https://www.ubixai.com/product/md'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
