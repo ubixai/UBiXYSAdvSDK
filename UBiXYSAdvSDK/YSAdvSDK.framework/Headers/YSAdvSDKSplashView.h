@@ -54,7 +54,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)ysSplashAdDidClicked;
 
 /**
- 广告关闭了
+ 广告关闭了（倒计时结束、点击跳过、点击后落地页/全屏页关闭，均会回调；同一次展示只回调一次）
+ 回调顺序：FinishCountdown/ClickSkip/CloseOtherController 先触发，随后触发本回调
  */
 - (void)ysSplashAdDidClosed;
 
